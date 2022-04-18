@@ -78,7 +78,6 @@ class Game
             #puts self.dealer.hand.map{|c| c.abbr_name}.to_s
             self.hit(self.dealer)
         end
-        puts "Finished dealer status"
         #determine winner now that both player and dealer dealt
         return print_round_outcome
     end
